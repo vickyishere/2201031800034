@@ -1,0 +1,147 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto font family */
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Solid black background color */
+    color: #fff; /* White font color */
+    background-image: url('spacee.jpg'); /* Add your background image URL */
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden; /* Prevent horizontal scroll bar */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for header */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure header is above other content */
+}
+
+.brand h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    background-color: #fff;
+    height: 4px;
+    width: 100%;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin-left: 20px; /* Adjust as needed */
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for hero */
+    padding: 50px;
+    text-align: center;
+    margin-top: 120px; /* Adjust to avoid content behind the fixed header */
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: static;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000; /* Ensure footer is above other content */
+}
+
+/* For WebKit browsers (Chrome, Safari) */
+body::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(208, 234, 239, 0.115); /* Semi-transparent color of the scrollbar thumb */
+    border-radius: 6px; /* Border radius of the scrollbar thumb */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff; /* White font color */
+    text-decoration: none;
+    font-size: 18px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the links bold */
+    transition: color 0.3s ease; /* Smooth transition for link color */
+}
+
+nav ul li a:hover {
+    color: #70d3d5; /* Change link color on hover */
+}
+
+.video-container {
+    position: relative;
+    width: 80%; /* Adjust width as needed */
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 20px auto; /* Center the container horizontally and add space on top */
+    padding-bottom: 25%; /* Adjust the percentage for desired vertical size */
+    overflow: hidden; /* Hide any overflow content */
+}
+
+
+.video-container iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the iframe */
+}
+
+
+.about {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure header is above other content */
+}
