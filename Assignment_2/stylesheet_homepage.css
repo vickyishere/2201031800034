@@ -1,17 +1,17 @@
 body {
-    font-family: 'Roboto', sans-serif; /* Use Roboto font family */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #000; /* Solid black background color */
-    color: #fff; /* White font color */
-    background-image: url('spacee.jpg'); /* Add your background image URL */
+    background-color: #000;
+    color: #fff;
+    background-image: url('spacee.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    overflow-x: hidden; /* Prevent horizontal scroll bar */
+    overflow-x: hidden;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for header */
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 20px;
     display: flex;
@@ -20,7 +20,7 @@ header {
     position: fixed;
     width: 100%;
     top: 0;
-    z-index: 1000; /* Ensure header is above other content */
+    z-index: 1000;
 }
 
 .brand h1 {
@@ -53,7 +53,7 @@ nav {
     list-style-type: none;
     padding: 0;
     display: flex;
-    margin-left: 20px; /* Adjust as needed */
+    margin-left: 20px;
 }
 
 .menu li {
@@ -66,21 +66,21 @@ nav {
 }
 
 .hero {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for hero */
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 50px;
     text-align: center;
-    margin-top: 120px; /* Adjust to avoid content behind the fixed header */
+    margin-top: 120px;
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background for footer */
+    background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     text-align: center;
     padding: 20px;
     position: static;
     width: 100%;
     bottom: 0;
-    z-index: 1000; /* Ensure footer is above other content */
+    z-index: 1000;
 }
 
 nav ul {
@@ -94,24 +94,24 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff; /* White font color */
+    color: #fff;
     text-decoration: none;
-    font-size: 18px; /* Adjust font size as needed */
-    font-weight: bold; /* Make the links bold */
-    transition: color 0.3s ease; /* Smooth transition for link color */
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #70d3d5; /* Change link color on hover */
+    color: #70d3d5;
 }
 
 .video-container {
     position: relative;
-    width: 80%; /* Adjust width as needed */
-    max-width: 800px; /* Adjust max-width as needed */
-    margin: 20px auto; /* Center the container horizontally and add space on top */
-    padding-bottom: 25%; /* Adjust the percentage for desired vertical size */
-    overflow: hidden; /* Hide any overflow content */
+    width: 80%; 
+    max-width: 800px;
+    margin: 20px auto;
+    padding-bottom: 25%;
+    overflow: hidden;
 }
 
 
@@ -119,9 +119,9 @@ nav ul li a:hover {
     position: absolute;
     width: 100%;
     height: 100%;
-    top: 50%; /* Center vertically */
-    left: 50%; /* Center horizontally */
-    transform: translate(-50%, -50%); /* Center the iframe */
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -133,5 +133,5 @@ nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: #fff;
     padding: 10px 20px;
-    z-index: 1000; /* Ensure header is above other content */
+    z-index: 1000;
 }
