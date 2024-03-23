@@ -5,38 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projects - DIY Electronics</title>
     <link rel="stylesheet" href="stylesheet_homepage.css">
-    <style>
-        .video-container {
-            position: relative;
-            width: 80%;
-            max-width: 800px;
-            margin: 20px auto;
-            padding-bottom: 56.25%; /* 16:9 aspect ratio */
-            overflow: hidden;
-        }
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-        section > section {
-            margin-top: 20px;
-        }
-        header {
-            height: 60px;
-            background-color: rgba(0, 0, 0, 0.8);
-            color: #fff;
-            padding: 10px 20px;
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Projects</h1>
+        <div class="brand">
+            <h1>Projects</h1>
+        </div>
         <nav>
-            <ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu">
                 <li><a href="homepage.html">Home</a></li>
                 <li><a href="projectpage.html">Projects</a></li>
                 <li><a href="About.html">About</a></li>
@@ -45,6 +26,7 @@
             </ul>
         </nav>
     </header>
+
 
     <main>
         <section>

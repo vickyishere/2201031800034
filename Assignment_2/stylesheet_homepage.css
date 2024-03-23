@@ -83,16 +83,6 @@ footer {
     z-index: 1000; /* Ensure footer is above other content */
 }
 
-/* For WebKit browsers (Chrome, Safari) */
-body::-webkit-scrollbar {
-    width: 12px; /* Width of the scrollbar */
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: rgba(208, 234, 239, 0.115); /* Semi-transparent color of the scrollbar thumb */
-    border-radius: 6px; /* Border radius of the scrollbar thumb */
-}
-
 nav ul {
     list-style-type: none;
     padding: 0;
